@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #040D10 !important;
+}
+
 /*****************************************/
 /************* HERO SECTION *************/
 
@@ -191,41 +195,149 @@
     color: #FFD28D;
 }
 
-
-
+/* --- FORM CONTAINER --- */
 .filter-section {
     bottom: -6rem;
-    color: white;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
 .form {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center !important;
     gap: 1rem;
     width: 96%;
     background-color: #040D10;
     padding: 3rem 0;
+    /* min-width: 100%; */
 }
 
+/* 
+.form-item {
+    padding: 0 3rem;
+} */
 
 .form-item input,
 .form-item select {
+    border: .1px solid #c5a57270;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    border-radius: 0;
+    outline: none;
+    transition: all 0.3s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+
+
+    font-family: Prompt, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+}
+
+/* --- Hover & Focus --- */
+
+.form-item select:focus {
+    border-color: #c5a57270;
+}
+
+.form-item input:focus {
+    outline: 4px solid #040D10;
     background-color: #040D10 !important;
     color: white;
-    padding: 1rem 2rem;
+    border-color: #c5a57270;
 }
 
-.form-item input {
-    border-radius: 0;
-    padding: 1rem 2rem;
-}
-.form-item select {
-    padding: 1rem 5rem 1rem 1rem;
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url("data:image/svg+xml,%3Csvg fill='%23c5a572' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-2 .89-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V6c0-1.11-.89-2-2-2zm0 16H5V9h14v11z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0px center;
+    background-size: cover;
+    filter: none;
+    opacity: 1;
+    cursor: pointer;
+    /* margin-left: 4rem; */
+}
+
+.form-item {
+    position: relative;
+    width: 200px;
+}
+
+
+.select-item::after {
+    content: "\25BC";
+    font-size: 0.8rem;
+    color: #c5a572;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.select-option option {
+    color: black;
+}
+
+.check-availability-btn {
+    font-family: Prompt, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: black;
+    text-transform: uppercase;
+
+    background-color: #FFD28D;
+    border: none;
+    padding: 1rem 1rem;
+    width: fit-content;
+    transition: all 0.3s ease;
+}
+
+.check-availability-btn:hover {
+    background-color: #040D10;
+    border-top: 1px solid #c5a572;
+    border-bottom: 1px solid #c5a572;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .form {
+        flex-direction: column;
+        /* padding: 2rem; */
+    }
+
+    .form-item {
+        width: 95%;
+    }
+
+    .filter-section {
+        bottom: -35rem;
+    }
+
+    .hero-section {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .hero-text {
+        width: 100%;
+        top: 16rem;
+    }
+
+    .hero-title-two {
+        font-size: 2rem;
+    }
 }
