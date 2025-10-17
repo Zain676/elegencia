@@ -395,7 +395,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 
-.welcome-tag {
+.line-before {
     position: relative;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -409,7 +409,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: rgb(255, 210, 141);
 }
 
-.welcome-tag::before {
+.line-before::before {
     content: "";
     position: absolute;
     left: 0;
@@ -503,6 +503,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     text-decoration: none;
     transition: color 0.3s ease;
 }
+
 .room-card-title:hover {
     color: #c5a572;
 }
@@ -560,6 +561,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-color: #4F4836;
     transition: width 0.5s ease;
 }
+
 .room-card-footer:hover a {
     color: white;
 }
@@ -638,4 +640,177 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .cards {
         flex-direction: column;
     }
+}
+
+
+
+/* Services */
+
+/* .services {
+    margin-bottom: 50rem;
+} */
+
+.service-header h1 {
+    font-family: Baskervville, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 69px;
+    color: rgb(255, 255, 255);
+}
+
+.service-header>h1 span {
+    color: #FFD28D;
+}
+
+.service-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 4rem;
+}
+
+.service-left {
+    width: 40%;
+}
+
+.service-right {
+    width: 60%;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.service-content a {
+    text-decoration: none;
+    border-bottom: 1px solid #4F4836;
+    padding: 0 0 1rem 0;
+}
+
+.service-content h4 {
+    font-family: Baskervville, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgb(255, 254, 252);
+}
+
+
+.service-img {
+    /* width: 60%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.service-img img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.num-item h2 {
+    font-family: Prompt, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgb(255, 210, 141);
+}
+
+
+
+.numbers {
+    padding: 7rem 0;
+}
+
+.num-items {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.num-item>p span {
+    font-family: Baskervville;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 210, 141);
+    font-style: italic;
+}
+
+.num-item p {
+    font-family: Baskervville;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    margin-top: 2rem !important;
+}
+
+
+
+.testimonial {
+    padding: 4rem 0;
+    margin-bottom: 50rem;
+}
+
+.test-main {
+    align-items: center;
+}
+
+.test-head h3 {
+    font-family: Baskervville, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgb(255, 210, 141);
+}
+
+.test-head p {
+    font-family: Prompt, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.test-body {
+    width: 100%;
+}
+
+.test-body p {
+    font-family: Prompt, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+    width: 60%;
+}
+
+.test-head img {
+    border-radius: 50%;
+}
+
+.navigation-icons {
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navigation-icons i {
+    border: 1px solid #c5a572;
+    padding: 1.5rem 2.5rem 1.5rem 1.5rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.navigation-icons i:hover {
+    background-color: #c5a572;
 }
