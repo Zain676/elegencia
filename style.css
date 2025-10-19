@@ -754,7 +754,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .testimonial {
     padding: 4rem 0;
-    margin-bottom: 50rem;
 }
 
 .test-main {
@@ -813,4 +812,367 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .navigation-icons i:hover {
     background-color: #c5a572;
+}
+
+
+
+.extra-features {
+    padding: 7rem 0;
+}
+
+.extra-features-head h4 {
+    font-family: Baskervville;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgb(255, 210, 141);
+    font-style: italic;
+}
+
+.extra-features-head h2 {
+    font-family: Baskervville, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgb(255, 210, 141);
+}
+
+.feature-cards {
+    justify-content: space-between;
+}
+
+.cust-cards1 {
+    margin: 0 6.25rem;
+}
+
+/* .cust-cards2 {
+} */
+
+
+.feature {
+    margin: 1rem 1rem 1rem 1rem;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #091E24;
+    padding: 3rem;
+}
+
+.feature-card {
+    border-right: 1px solid #4F4836;
+
+}
+
+.feature-content>h4 span {
+    font-family: Baskervville, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgb(255, 210, 141);
+}
+
+.feature-content h4 {
+    font-family: Baskervville, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+}
+
+.feature-content p {
+    font-family: Prompt;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(200, 200, 200);
+}
+
+.feature-img img {
+    border: 1px solid #c5a57263;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.border-container1 {
+    border-bottom: 1px solid #4F4836;
+}
+
+.border-container2 {
+    border-bottom: none;
+    padding: 0 6.25rem;
+}
+
+
+
+
+/* our gallery  */
+
+.gallery {
+    padding: 4rem 0;
+}
+
+.gallery-head h4,
+.news-head h4 {
+    font-family: Baskervville;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgb(255, 210, 141);
+}
+
+.gallery-head h2,
+.news-head h2 {
+    font-family: Baskervville, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgb(255, 210, 141);
+}
+
+
+.gallery-images img {
+    width: 20rem;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* news and events */
+
+.news-events {
+    padding: 4rem 0;
+}
+
+
+.news-main {
+    justify-content: space-between;
+}
+
+.cards {
+    gap: 1rem;
+}
+
+.news-content {
+    margin-left: 2rem;
+    min-width: 25rem !important;
+}
+
+.news-card-date {
+    font-family: Prompt, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.news-card-title {
+    font-family: Baskervville;
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFD28D;
+    text-decoration: none;
+}
+
+.news-card-btn {
+    font-family: Prompt, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.news-content p {
+    font-family: Prompt, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(200, 200, 200);
+}
+
+.news-card {
+    background-color: #091E24;
+    padding: 1rem 2rem;
+}
+
+.news-date {
+    border: 1px solid #4F4836;
+    border-radius: 50%;
+    padding: 1.5rem 1.8rem;
+    margin: 0 1rem 0 0;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.news-date p {
+    margin-bottom: 0;
+}
+
+.n-date {
+    font-family: Prompt !important;
+    font-size: 36px !important;
+    font-weight: 400 !important;
+    color: rgb(255, 210, 141) !important;
+}
+
+.month-name {
+    font-family: Baskervville !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: rgb(255, 210, 141) !important;
+}
+
+.n-title {
+    font-family: Baskervville, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: white;
+    /* color: rgb(255, 220, 166); */
+    text-decoration: none;
+}
+
+.news-text p {
+    font-family: Prompt;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(200, 200, 200);
+}
+
+
+/* Footer */
+
+.logo-light {
+    border-bottom: 1px solid #4F4836;
+    padding: 0 0 6rem 0;
+}
+
+.footer-content {
+    padding: 4rem 0;
+    border-bottom: 1px solid #4F4836;
+}
+
+.footer-menu {
+    margin-bottom: 6rem;
+}
+
+.footer-menu-ul {
+    gap: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-email a {
+    font-family: Prompt, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-menu-ul li {
+    list-style: none;
+}
+
+.footer-menu-ul>li a {
+    font-family: Prompt, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.footer-info {
+    justify-content: space-between;
+    /* gap: 3rem; */
+}
+
+.footer-phn a,
+.footer-address a {
+    font-family: Prompt, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.email-input {
+    border: 1px solid #4F4836;
+
+}
+
+.email-input input {
+    font-family: Prompt, sans-serif;
+    background-color: transparent;
+    border: none;
+    padding: 1rem 1.5rem;
+    color: white;
+}
+
+.email-input input:focus {
+    outline: none;
+}
+
+.email-input input::placeholder {
+    font-family: Prompt, sans-serif;
+}
+
+.btn-input {
+    margin: 0 1rem;
+    padding: .4rem .7rem;
+    border-radius: 1rem;
+}
+
+.footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.footer-btn:hover {
+    background-color: transparent;
+    border-top: 1px solid #FFD28D;
+    border-bottom: 1px solid #FFD28D ;
+}
+
+.footer-btn:hover a {
+  color: white;
+}
+
+.footer-btn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 2rem;
+    font-family: Prompt, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: black;
+}
+
+
+.copy-right-section {
+    padding: 7rem 0 2rem 0;
+}
+
+.copy-right-section p {
+    font-family: Prompt, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(200, 200, 200);
 }
