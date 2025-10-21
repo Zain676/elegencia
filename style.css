@@ -373,6 +373,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
 }
 
+@media (max-width: 412px) {
+    .hero-text {
+        top: 10rem;
+    }
+    .filter-section {
+        bottom: -4rem;
+    }
+}
+
 
 
 /* about us */
