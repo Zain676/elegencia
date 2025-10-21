@@ -364,6 +364,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
 }
 
+@media (max-width: 600px) {
+    .hero-title-two   {
+        font-size: 1rem;
+    }
+    .hero-title-three {
+        font-size: 1.5rem;
+    }
+}
+
 
 
 /* about us */
