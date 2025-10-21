@@ -365,9 +365,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 @media (max-width: 600px) {
-    .hero-title-two   {
+    .hero-title-two {
         font-size: 1rem;
     }
+
     .hero-title-three {
         font-size: 1.5rem;
     }
@@ -377,9 +378,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .hero-text {
         top: 10rem;
     }
+
     .filter-section {
         bottom: -4rem;
     }
+
     .navbar-brand {
         width: 5rem;
     }
@@ -401,12 +404,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .header-book-btn {
         display: none;
     }
+
     .navbar {
         border-bottom: none;
     }
+
     .nav-right {
         border-left: none;
     }
+
     #nav-links {
         display: none;
     }
@@ -689,7 +695,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
 
     .card {
-        max-width: 100% !important; 
+        max-width: 100% !important;
         margin-top: 2rem;
     }
 }
@@ -756,6 +762,24 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .service-img img {
     max-width: 100%;
     width: 100%;
+}
+
+@media (max-width: 412px) {
+    .service-main {
+        flex-direction: column;
+    }
+
+    .service-left {
+        width: 100%;
+    }
+
+    /* .service-content a {
+        width: 100%;
+    }
+
+    .service-content h4 {
+        width: 100%;
+    } */
 }
 
 
