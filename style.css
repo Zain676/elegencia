@@ -380,6 +380,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .filter-section {
         bottom: -4rem;
     }
+    .navbar-brand {
+        width: 5rem;
+    }
+
+
+    .burger {
+        width: 30px;
+    }
 }
 
 @media (max-width: 390px) {
@@ -387,6 +395,24 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         bottom: 3rem;
     }
 }
+
+
+@media (max-width: 1180px) {
+    .header-book-btn {
+        display: none;
+    }
+    .navbar {
+        border-bottom: none;
+    }
+    .nav-right {
+        border-left: none;
+    }
+    #nav-links {
+        display: none;
+    }
+}
+
+
 
 
 
