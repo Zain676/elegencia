@@ -19,8 +19,8 @@ body {
 } */
 
 .container {
-  max-width: 100%;
-  overflow-x: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -33,7 +33,7 @@ body {
     height: 100vh;
     background-image: url(./assets/hotel_1.png);
     background-size: cover;
-     overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .hero-text {
@@ -210,7 +210,7 @@ body {
 @media (max-width: 425px) {
     .overlay-content {
         align-items: center;
-        padding: 0  ;
+        padding: 0;
     }
 
 }
@@ -507,7 +507,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-bottom: 30px;
 }
 
-.welcome-title .highlight {
+.highlight {
     font-family: Baskervville, sans-serif;
     font-size: 60px;
     font-weight: 400;
@@ -529,6 +529,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: 36px;
     color: #ffffff;
     margin-top: 40px;
+}
+
+
+@media (max-width: 425px) {
+
+    .welcome-title,
+    .highlight {
+        font-size: 40px;
+    }
 }
 
 
@@ -718,6 +727,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         max-width: 100% !important;
         margin-top: 2rem;
     }
+}
+
+@media (max-width:425px) {
+    .acc-header h2 {
+        font-size: 40px;
+    }
+    .service-header h1 {
+        font-size: 40px !important;
+    }
+
 }
 
 
