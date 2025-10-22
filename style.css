@@ -195,6 +195,14 @@ body {
     color: #FFD28D;
 }
 
+@media (max-width: 425px) {
+    .overlay-content {
+        align-items: center;
+        padding: 0  ;
+    }
+
+}
+
 /* --- FORM CONTAINER --- */
 .filter-section {
     bottom: -6rem;
@@ -951,7 +959,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .test-icon {
         display: none;
     }
-    .test-body p{
+
+    .test-body p {
         width: 100%;
         margin: 0 !important;
     }
