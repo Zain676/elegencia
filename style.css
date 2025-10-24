@@ -22,7 +22,6 @@ body {
 
 .container {
     max-width: 100%;
-    /* overflow: hidden; */
 }
 
 
@@ -772,7 +771,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 
 
-
 .service-header h1 {
     font-family: Baskervville, sans-serif;
     font-size: 60px;
@@ -1111,8 +1109,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border-bottom: none;
     padding: 0 6.25rem;
 }
+.f-card2 {
+    border-right: none !important;
+}
 
-/* ===== Responsive (Small Screens Only) ===== */
 @media (max-width: 768px) {
     .extra-features {
         padding: 4rem 0;
